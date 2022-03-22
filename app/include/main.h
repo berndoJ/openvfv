@@ -3,6 +3,8 @@
 #ifndef __MAIN_H
 #define __MAIN_H
 
-int addnum(int n1, int n2);
+#include <GLFW/glfw3.h>
+//void reshape(GLFWwindow *window);
+void display(GLFWwindow *window);
 
 #endif
